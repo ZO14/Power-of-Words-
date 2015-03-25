@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head> 	
+  <title>Power of Words</title>
+ <link href="Site.css" rel="stylesheet">
+</head>
+
+<body>
+
+<nav id="nav01"></nav>
+
+<div id="main">	
+  <h1>Welcome to Power of Words</h1> 
+  <h2>The following was used to code this website:</h2>
+
+  <p>Pages (HTML)</p>
+  <p>Style Sheets (CSS)</p>
+  <p>Computer Code (JavaScript)</p>
+  <p>Live Data (Files and Databases)</p>
+  <footer id="foot01"></footer>
+</div>
+
+<script src="Script.js"></script> 
+
+</body>
+
+</html> 
