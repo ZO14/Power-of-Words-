@@ -1,8 +1,8 @@
 body {
-    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
     font-size: 16px;
-    background-color: dimgrey; 
-    color: #696969;
+    background-color: LightSkyBlue; 
+    color: #87CEFA;
     padding: 3px;
 }
 
@@ -16,8 +16,8 @@ body {
 
 h1 {
     font-family: Georgia, serif;
-    border-bottom: 3px solid #cc9900;
-    color: #996600;
+    border-bottom: 3px solid #DC143C;
+    color: #DC143C;
     font-size: 30px;
 }
 
