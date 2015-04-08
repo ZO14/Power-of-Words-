@@ -1,15 +1,5 @@
 <!DOCTYPE html>
 <script>
-    function SecondGradeQ1(userAnswer) {
-        if (userAnswer == 9) 
-        {
-            document.getElementById("result").innerHTML = "9 Apples is the correct answer!";
-        }
-        else
-        {
-            document.getElementById("result").innerHTML = userAnswer + " Apples is not the correct answer!";
-        }
-    }
 </script>
 <html lang="en">
     <head>
@@ -20,13 +10,9 @@
         <nav id="nav01"></nav>
         <div id="main">	
             <h1> 2nd Grade Level Questions </h1>
-            <p> Question 1: Johnny has five apples and Lucy has four apples. If Johnny and Lucy added their apples together, how many apples would they have in total?</p> 
-            <form action="action_page.php">
-                <input type="number" name="answer">
-                <input type="submit">
-                <p></p>"SecondGradeQ1("answer")"</p>
-            </form>
+                <script src="MathProblems.js">Addition();</script> 
             <div id="result"></div>
         </div>
+        <script src="Script.js"></script>
     </body>   
 </html>
