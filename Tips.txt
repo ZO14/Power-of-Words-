@@ -1,0 +1,7 @@
+Intelligent Tutoring:
+  Have resources and posts based on what motivates a student as
+  well as it tells where students go wrong and what helps them
+  learn the topic better.
+  
+Testing:
+  Test the students as a main focus rather than just classes.
