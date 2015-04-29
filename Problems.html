@@ -1,46 +1,49 @@
-!DOCTYPE html>
-<html>
+<!DOCTYPE html>
 
-<head> 	
-    <title>Problem Sets</title>
-    <link href="Site.css" rel="stylesheet">
-</head>
+<html lang="en">
+    <head>
+        <title>Power of Words</title>
+        <link rel="stylesheet" type="text/css" href="Site.css">
+    </head>
+    <body>
+        <nav id="nav01"></nav>
 
-<body>
+            <div id="main">	
 
-    <nav id="nav01"></nav>
+                <div class="tabs"> 
+                    <ul class="tab-links">
+                    <li class="active"><a href="#tab1">2nd Grade Level Questions</a></li>
+                    <li><a href="#tab2">3rd Grade Level Questions</a></li>
+                    <li><a href="#tab3">4th Grade Level Questions</a></li>
+                    <li><a href="#tab4">5th Grade Level Questions</a></li>
+                    </ul> 
 
-        <div id="main">		
-            <h1> 2nd Grade Level Questions </h1>
-            <p id="Question1"></p>
+                    <div class="tab-content">
+                        <div id="tab1" class="tab active">
+                        <p>2nd Grade Level Questions</p>
+                    </div>
 
-            <script>
-            function G2Subtraction() 
-            {
-                var x, y, input;
-                x = Math.floor(Math.random() * 20 + 10)
-                y = Math.floor(Math.random() * 10 + 5) 
-                document.getElementById("demo").innerHTML =("Lyla has two family members with the same birthday. So she makes two cakes "
-                + "and tops them with a total of "+ x + " candles. One cake has " + y + " candles. "
-                + "How many candles are on the other cake?")
-   
-                input = document.getElementById("numb").value;
+                    <div id="tab2" class="tab">
+                        <p>3rd Grade Level Questions</p>
+                    </div>
 
-                if (input != x - y)
-                {
-                    write("That is incorrect. Would you like some help?");
-                }
-                else
-                {
-                    write("That is correct!")
-                }
-                return ;
-            }
-            document.getElementById("Question1").innerHTML = G2Subtraction();
-            </script>
-            <div id="result"></div>
-            <footer id="foot01"></footer>
-        </div>
+                    <div id="tab3" class="tab">
+                        <p>4th Grade Level Questions</p>
+                    </div>
+
+                    <div id="tab4" class="tab">
+                        <p>5th Grade Level Questions</p>
+                    </div>
+
+                    
+                        <script src="MathProblems.js">Addition();</script> 
+                    <div id="result"></div>
+          
+                </div>
+
+            </div>
+
         <script src="Script.js"></script>
     </body>   
 </html>
+
