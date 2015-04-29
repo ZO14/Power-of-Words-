@@ -1,17 +1,41 @@
-<!DOCTYPE html>
-<script>
-</script>
-<html lang="en">
-    <head>
-        <title>Power of Words</title>
-        <link rel="stylesheet" type="text/css" href="Site.css">
-    </head>
-    <body>
-        <nav id="nav01"></nav>
-        <div id="main">	
+!DOCTYPE html>
+<html>
+
+<head> 	
+    <title>Problem Sets</title>
+    <link href="Site.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav id="nav01"></nav>
+
+        <div id="main">		
             <h1> 2nd Grade Level Questions </h1>
-                <script src="MathProblems.js">Addition();</script> 
+            <script>
+            function G2Subtraction() 
+            {
+                var x, y, input;
+                x = Math.floor(Math.random() * 20 + 10)
+                y = Math.floor(Math.random() * 10 + 5) 
+                write("Lyla has two family members with the same birthday. So she makes two cakes "
+                + "and tops them with a total of "+ x + " candles. One cake has " + y + " candles. "
+                + "How many candles are on the other cake?")
+   
+                input = document.getElementById("numb").value;
+
+                if (input != x - y)
+                {
+                    write("That is incorrect. Would you like some help?");
+                }
+                else
+                {
+                    write("That is correct!")
+                }
+                return ;
+            }</script>
             <div id="result"></div>
+            <footer id="foot01"></footer>
         </div>
         <script src="Script.js"></script>
     </body>   
