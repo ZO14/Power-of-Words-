@@ -12,13 +12,15 @@
 
         <div id="main">		
             <h1> 2nd Grade Level Questions </h1>
+            <p id="Question1"></p>
+
             <script>
             function G2Subtraction() 
             {
                 var x, y, input;
                 x = Math.floor(Math.random() * 20 + 10)
                 y = Math.floor(Math.random() * 10 + 5) 
-                write("Lyla has two family members with the same birthday. So she makes two cakes "
+                document.getElementById("demo").innerHTML =("Lyla has two family members with the same birthday. So she makes two cakes "
                 + "and tops them with a total of "+ x + " candles. One cake has " + y + " candles. "
                 + "How many candles are on the other cake?")
    
@@ -34,7 +36,7 @@
                 }
                 return ;
             }
-            document.getElementById("main").innerHTML = G2Subtraction();
+            document.getElementById("Question1").innerHTML = G2Subtraction();
             </script>
             <div id="result"></div>
             <footer id="foot01"></footer>
