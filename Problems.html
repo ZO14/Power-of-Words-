@@ -14,41 +14,40 @@
 
                 <div class="tabs"> 
                     <ul class="tab-links">
-                    <li id="active"><a href="#tab1">2nd Grade Level Questions</a></li>
-                    <li><a href="#tab2">3rd Grade Level Questions</a></li>
-                    <li><a href="#tab3">4th Grade Level Questions</a></li>
-                    <li><a href="#tab4">5th Grade Level Questions</a></li>
+                    <li id="active"><a href="tab1">2nd Grade Level Questions</a></li>
+                    <li><a href="tab2">3rd Grade Level Questions</a></li>
+                    <li><a href="tab3">4th Grade Level Questions</a></li>
+                    <li><a href="tab4">5th Grade Level Questions</a></li>
                     </ul> 
+                    
+                    <div id="tab1" class="tab">
+                    <p>2nd Grade Level Questions</p>
+                    <p id="Question1"></p>
 
-                    <div class="tab-content">
-                        <div id="tab1" class="tab active">
-                        <p>2nd Grade Level Questions</p>
-                        <p id="Question1"></p>
-
-            <script>
-            function G2Subtraction() 
-            {
-                var x, y, input;
-                x = Math.floor(Math.random() * 20 + 10)
-                y = Math.floor(Math.random() * 10 + 5) 
-                document.getElementById("Question1").innerHTML =("Lyla has two family members with the same birthday. So she makes two cakes "
-                + "and tops them with a total of "+ x + " candles. One cake has " + y + " candles. "
-                + "How many candles are on the other cake?")
-   
-                input = document.getElementById("numb").value;
-
-                if (input != x - y)
-                {
-                     document.getElementById("Question1").innerHTML =("That is incorrect. Would you like some help?");
-                }
-                else
-                {
-                     document.getElementById("Question1").innerHTML =("That is correct!")
-                }
-                return ;
-            }
-            document.getElementById("Question1").innerHTML = G2Subtraction();
-            </script>
+                    <script>
+                    function G2Subtraction() 
+                    {
+                        var x, y, input;
+                        x = Math.floor(Math.random() * 20 + 10)
+                        y = Math.floor(Math.random() * 10 + 5) 
+                        document.getElementById("Question1").innerHTML =("Lyla has two family members with the same birthday. So she makes two cakes "
+                        + "and tops them with a total of "+ x + " candles. One cake has " + y + " candles. "
+                        + "How many candles are on the other cake?")
+           
+                        input = document.getElementById("numb").value;
+        
+                        if (input != x - y)
+                        {
+                             document.getElementById("Question1").innerHTML =("That is incorrect. Would you like some help?");
+                        }
+                        else
+                        {
+                             document.getElementById("Question1").innerHTML =("That is correct!")
+                        }
+                        return ;
+                    }
+                    document.getElementById("Question1").innerHTML = G2Subtraction();
+                    </script>
                     </div>
 
                     <div id="tab2" class="tab">
