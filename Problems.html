@@ -9,19 +9,9 @@
 <body>
 
     <nav id="nav01"></nav>
+                    <details open>
 
-            <div id="main">	
-
-                <div class="tabs"> 
-                    <ul class="tab-links">
-                    <li id="active"><a href="tab1">2nd Grade Level Questions</a></li>
-                    <li><a href="tab2">3rd Grade Level Questions</a></li>
-                    <li><a href="tab3">4th Grade Level Questions</a></li>
-                    <li><a href="tab4">5th Grade Level Questions</a></li>
-                    </ul> 
-                    
-                    <div id="tab1" class="tab">
-                    <p>2nd Grade Level Questions</p>
+<summary>2nd Grade Level Questions</summary>
                     <p id="Question1"></p>
 
                     <script>
@@ -48,30 +38,27 @@
                     }
                     document.getElementById("Question1").innerHTML = G2Subtraction();
                     </script>
-                    </div>
 
-                    <div id="tab2" class="tab">
-                        <p>3rd Grade Level Questions</p>
-                    </div>
 
-                    <div id="tab3" class="tab">
-                        <p>4th Grade Level Questions</p>
-                    </div>
+</details>
+                    <details>
 
-                    <div id="tab4" class="tab">
-                        <p>5th Grade Level Questions</p>
-                    </div>
+    				  <summary>3rd Grade Level Questions</summary>
 
-                    
-                        <script src="MathProblems.js">Addition();</script> 
-                    <div id="result"></div>
+</details>
+                    <details>
+
+                        <summary>4th Grade Level Questions</summary>
+
+</details>
+                    <details>
+
+                        <summary>5th Grade Level Questions</summary>
+
+</details>                   
           
-                </div>
-
-            </div>
             <footer id="foot01"></footer>
-        </div>
+        </nav>
         <script src="Script.js"></script>
     </body>   
 </html>
-
